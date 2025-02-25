@@ -1,4 +1,4 @@
-### <div align="center">Hi, Im kibou 👋</div>  
+### <div>Hi, Im kibou 👋</div>  
   
 
 - 🎓 I'm currently doing a apprenticeship as a computer scientist  
