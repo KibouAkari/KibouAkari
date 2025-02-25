@@ -1,15 +1,10 @@
-### <div>Hi, Im kibou 👋</div>  
-  
+### Hi there, I'm Kibou
+
+**About me:**
 
 - 🎓 I'm currently doing a apprenticeship as a computer scientist  
-  
-
-- ⚙️ I'm currently working on some Web projects  
-  
-
+- ⚙️ I'm currently working on some Web projects
 - 💭 If you got any questions send me a [mail](mailto:kibouakari@proton.me)  
-  
-
 -  🌐 My portfolio is still in work  
   
 
