@@ -27,5 +27,8 @@
 <a href="https://www.figma.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/figma-icon.svg" alt="Figma" height="50" /></a>  
 </div>
 <br />
+
 ## Github Stats
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/apiKibouAkari=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+
+<img align="center" src="https://github-readme-stats-kibouakari.vercel.app/api?username=kibouakari&show_icons=true&theme=tokyonight&hide=stars" /> | <img align="center" src="https://github-readme-stats-kibouakari.vercel.app/api/top-langs/?username=totoluto&layout=compact&theme=tokyonight" /> |
+| ------------- | ------------- |
