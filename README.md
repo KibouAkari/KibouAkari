@@ -30,5 +30,5 @@
 
 ## Github Stats
 
-<img align="center" src="https://github-readme-stats-kibouakari.vercel.app/api?username=kibouakari&show_icons=true&theme=tokyonight&hide=stars" /> | <img align="center" src="https://github-readme-stats-kibouakari.vercel.app/api/top-langs/?username=totoluto&layout=compact&theme=tokyonight" /> |
+<img align="center" src="https://github-readme-stats-totoluto.vercel.app/api?username=kibouakari&show_icons=true&theme=tokyonight&hide=stars" /> | <img align="center" src="https://github-readme-stats-totoluto.vercel.app/api/top-langs/?username=kibouakari&layout=compact&theme=tokyonight" /> |
 | ------------- | ------------- |
