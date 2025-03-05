@@ -7,7 +7,6 @@
 - 💭 If you got any questions send me a [mail](mailto:kibouakari@proton.me)  
 -  🌐 My portfolio is still in work  
 
-
 <br/>  
 
 ## My Skills  
