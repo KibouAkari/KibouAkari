@@ -1,6 +1,6 @@
 ### Hi there, I'm Kibou
 
-**About me:**
+## About me:
 
 - 🎓 I'm currently doing a apprenticeship as a computer scientist  
 - ⚙️ I'm currently working on some Web projects
