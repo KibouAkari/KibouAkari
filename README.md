@@ -25,5 +25,7 @@
 
 ## Github Stats
 
-![](https://github-readme-stats-totoluto.vercel.app/api?username=kibouakari&show_icons=true&theme=tokyonight&hide=stars&include_all_commits=true&count_private=true)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=kibouakari&layout=compact&theme=tokyonight&include_all_commits=true&count_private=true)
+<div align="center">
+  <img src="https://github-readme-stats-totoluto.vercel.app/api?username=kibouakari&show_icons=true&theme=tokyonight&hide=stars&include_all_commits=true&count_private=true" style="margin-right: 10px;" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kibouakari&layout=compact&theme=tokyonight&include_all_commits=true&count_private=true" style="margin-left: 10px;" />
+</div>
