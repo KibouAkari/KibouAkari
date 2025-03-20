@@ -25,9 +25,13 @@
 
 ## Github Stats
 
-<div align="center">
-  <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; max-width: 90%;">
-    <img src="https://github-readme-stats-totoluto.vercel.app/api?username=kibouakari&show_icons=true&theme=tokyonight&hide=stars&include_all_commits=true&count_private=true" style="flex: 1; max-width: 400px; min-width: 250px padding_right: 20px;" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kibouakari&layout=compact&theme=tokyonight&include_all_commits=true&count_private=true" style="flex: 1; max-width: 400px; min-width: 250px;" />
-  </div>
-</div>
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://github-readme-stats-totoluto.vercel.app/api?username=kibouakari&show_icons=true&theme=tokyonight&hide=stars&include_all_commits=true&count_private=true" />
+    </td>
+    <td align="center">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kibouakari&layout=compact&theme=tokyonight&include_all_commits=true&count_private=true" />
+    </td>
+  </tr>
+</table>
