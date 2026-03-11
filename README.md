@@ -35,3 +35,11 @@
     </td>
   </tr>
 </table>
+
+## Tryhackme Stats
+
+<div align="center">
+  <a href="https://tryhackme.com/p/KibouAkari" target="_blank">
+    <img src="https://tryhackme-badges.s3.amazonaws.com/KibouAkari.png" alt="TryHackMe Profile" />
+  </a>
+</div>
