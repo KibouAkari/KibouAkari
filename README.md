@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Hi,%20I'm%20Kibou&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Fullstack%20Developer%20%7C%20Cybersecurity%20%7C%20Computer%20Science%20Apprentice&descAlignY=58&descSize=17" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Hi,%20I'm%20Kibou&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Cybersecurity%20Apprentice%20%7C%20Fullstack%20Development&descAlignY=58&descSize=17" width="100%"/>
 
 <a href="https://kibouakari.vercel.app">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Building+fullstack+web+projects;Diving+deeper+into+cybersecurity;Always+shipping+something+new&font=Fira%20Code&center=true&width=560&height=45&color=58A6FF&vCenter=true&size=22"/>
+  <img src="https://readme-typing-svg.demolab.com/?lines=Working+in+Cybersecurity;Building+fullstack+web+projects;Always+shipping+something+new&font=Fira%20Code&center=true&width=560&height=45&color=58A6FF&vCenter=true&size=22"/>
 </a>
 
 </div>
@@ -13,9 +13,8 @@
 ## About me
 
 - Currently doing an apprenticeship as a **Computer Scientist**
-- Working as a **Fullstack Developer**, mainly on web projects
-- Currently deepening my knowledge in **Cybersecurity**
-- Running **Windows**, **macOS** and **Linux** side by side — favorite distros: **Kali Linux** and **Nobara**
+- Working in the field of **Cybersecurity** — also bring solid **Fullstack Development** skills to the table
+- Running **Windows**, **macOS** and **Linux** side by side
 - Questions? Send me a [mail](mailto:kibouakari@proton.me) or check my [portfolio](https://kibouakari.vercel.app)
 
 <br/>
@@ -24,13 +23,11 @@
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=html,css,js,py,php,flask,nodejs,mongodb,postgres,wordpress,rust,docker,azure,bash,powershell,raspberrypi&theme=dark" />
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,py,flask,java,php,nodejs,mongodb,postgres,wordpress,rust,docker,kubernetes,git,azure,bash,powershell,raspberrypi&theme=dark" />
 
-</div>
+<br/><br/>
 
-<div align="center">
-
-<sub>Aus meinen Projekten: <b>vScanner</b> (Python · Flask · Nmap · Rust-Worker · Docker) · <b>Gambling</b> (JavaScript · Node · MongoDB) · <b>fake_youtube</b> (Networking / DNS)</sub>
+<sub>Zusätzlich im Einsatz: <b>Nmap</b> für Security-Scanning</sub>
 
 </div>
 
@@ -40,10 +37,17 @@
 
 **Betriebssysteme & Distros**
 
-<img src="https://skillicons.dev/icons?i=windows,apple,linux&theme=dark" />
-&nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=windows,linux&theme=dark" />
+<img src="https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white"/>
+
+<br/><br/>
+
 <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white"/>
 <img src="https://img.shields.io/badge/Nobara-000000?style=for-the-badge&logo=fedora&logoColor=white"/>
+<img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white"/>
+<img src="https://img.shields.io/badge/BlackArch-000000?style=for-the-badge&logoColor=00FF00"/>
+<img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"/>
+<img src="https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white"/>
 
 </div>
 
@@ -60,7 +64,7 @@
 
 <br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=kibouakari&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=8" alt="trophies"/>
+<img src="https://github-profile-trophy.vercel.app/?username=kibouakari&theme=tokyonight&row=2&column=4&margin-w=8&margin-h=8" alt="trophies"/>
 
 <br/>
 
@@ -72,7 +76,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:1a1a2e,100:16213e&height=60&section=header&text=Cybersecurity%20%26%20CTF%20Progress&fontSize=20&fontColor=ffffff&fontAlignY=60" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:1a1a2e,100:16213e&height=60&section=header&text=Cybersecurity%20x%20CTF%20Progress&fontSize=20&fontColor=ffffff&fontAlignY=60" width="100%"/>
 
 <a href="https://tryhackme.com/p/KibouAkari" target="_blank">
   <img src="https://tryhackme-badges.s3.amazonaws.com/KibouAkari.png" alt="TryHackMe Profile" width="500"/>
