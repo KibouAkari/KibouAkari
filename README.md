@@ -1,202 +1,68 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=210&section=header&text=Hi,%20I'm%20Kibou&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Cybersecurity%20%7C%20Software%20Engineering&descAlignY=58&descSize=17" width="100%"/>
+<!-- Terminal / Fastfetch Widget -->
+<img src="./assets/terminal.svg" alt="Terminal Profile" width="100%">
 
-<br>
+<br/><br/>
 
-<a href="https://kibouakari.vercel.app">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Cybersecurity+Apprentice;Fullstack+Developer;Security+%26+Infrastructure+Enthusiast;Always+building+%26+learning&font=Fira+Code&center=true&width=600&height=45&color=58A6FF&vCenter=true&size=21&pause=1200"/>
+<!-- Live Activity Widget -->
+<img src="./assets/activity.svg" alt="GitHub Activity Stats" width="100%">
+
+<br/><br/>
+
+<!-- TryHackMe Profile Badge -->
+<a href="https://tryhackme.com/p/kibouakari" target="_blank">
+  <img src="https://tryhackme-badges.s3.amazonaws.com/kibouakari.png" alt="TryHackMe Stats" />
 </a>
 
-<br><br>
+<br/><br/>
 
-<a href="https://tryhackme.com/p/KibouAkari">
-  <img src="https://img.shields.io/badge/TryHackMe-KibouAkari-red?style=for-the-badge&logo=tryhackme&logoColor=white"/>
-</a>
-<a href="https://kibouakari.vercel.app">
-  <img src="https://img.shields.io/badge/Portfolio-kibouakari.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
-</a>
-<a href="mailto:kibouakari@proton.me">
-  <img src="https://img.shields.io/badge/Contact-Email-6D4AFF?style=for-the-badge&logo=protonmail&logoColor=white"/>
-</a>
+<!-- ================= SKILLS & ENVIRONMENT ================= -->
 
-</div>
+<h2>🛠️ Tech Stack & Systems</h2>
 
-<br>
-
-## About Me
-
-I'm a **Computer Scientist apprentice** focused on **Cybersecurity, Software Engineering and Infrastructure**.
-
-I enjoy understanding how systems work, building fullstack applications and exploring how technology can be secured, automated and improved.
-
-> **Build it. Break it. Understand it. Secure it.**
+<p>
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Bash-4E2A8E?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash" />
+</p>
 
 ---
 
-## Tech Stack
+### 💻 Operating Systems & Environments
 
-<table>
-<tr>
-
-<td width="33%" align="center" valign="top">
-
-### Cybersecurity
-
-<img src="https://skillicons.dev/icons?i=linux,bash,powershell&theme=dark"/>
-
-<br><br>
-
-<img src="https://img.shields.io/badge/Nmap-1a1a2e?style=for-the-badge&logo=nmap&logoColor=white"/>
-<img src="https://img.shields.io/badge/Wireshark-1a1a2e?style=for-the-badge&logo=wireshark&logoColor=white"/>
-
-<br>
-
-<img src="https://img.shields.io/badge/OWASP-1a1a2e?style=for-the-badge&logo=owasp&logoColor=white"/>
-<img src="https://img.shields.io/badge/TryHackMe-1a1a2e?style=for-the-badge&logo=tryhackme&logoColor=white"/>
-
-</td>
-
-<td width="33%" align="center" valign="top">
-
-### Development
-
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nodejs,python,flask,java,php,rust&theme=dark"/>
-
-<br><br>
-
-Frontend · Backend  
-APIs · Automation  
-System Programming
-
-</td>
-
-<td width="33%" align="center" valign="top">
-
-### Infrastructure
-
-<img src="https://skillicons.dev/icons?i=docker,kubernetes,azure,git,raspberrypi&theme=dark"/>
-
-<br><br>
-
-Cloud · Containers  
-Linux Servers  
-Networking
-
-</td>
-
-</tr>
-
-<tr>
-
-<td width="33%" align="center" valign="top">
-
-### Databases
-
-<img src="https://skillicons.dev/icons?i=mongodb,postgres&theme=dark"/>
-
-<br><br>
-
-MongoDB · PostgreSQL
-
-</td>
-
-<td width="33%" align="center" valign="top">
-
-### Operating Systems
-
-<img src="https://skillicons.dev/icons?i=windows,linux&theme=dark"/>
-
-<br>
-
-<img src="https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white"/>
-
-<br>
-
-<img src="https://img.shields.io/badge/Kali-557C94?style=for-the-badge&logo=kalilinux&logoColor=white"/>
-<img src="https://img.shields.io/badge/Arch-1793D1?style=for-the-badge&logo=archlinux&logoColor=white"/>
-
-</td>
-
-<td width="33%" align="center" valign="top">
-
-### Tools
-
-<img src="https://skillicons.dev/icons?i=wordpress,git&theme=dark"/>
-
-<br><br>
-
-Bash · PowerShell  
-Docker · Kubernetes  
-Nmap
-
-</td>
-
-</tr>
-</table>
+<p>
+  <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white" alt="Arch Linux" />
+  <img src="https://img.shields.io/badge/Kali_Linux-557CDA?style=for-the-badge&logo=kali-linux&logoColor=white" alt="Kali Linux" />
+  <img src="https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS" />
+  <img src="https://img.shields.io/badge/Linux_Kernel-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+</p>
 
 ---
 
-## TryHackMe
+### 🛡️ Cyber Security & Analysis
 
-<div align="center">
-
-<a href="https://tryhackme.com/p/KibouAkari">
-  <img src="https://tryhackme-badges.s3.amazonaws.com/KibouAkari.png" alt="KibouAkari's TryHackMe Profile" width="500"/>
-</a>
-
-<br><br>
-
-<a href="https://tryhackme.com/p/KibouAkari">
-  <img src="https://img.shields.io/badge/View%20my%20TryHackMe%20Profile-red?style=for-the-badge&logo=tryhackme&logoColor=white"/>
-</a>
-
-</div>
+<p>
+  <img src="https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white" alt="TryHackMe" />
+  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark" />
+  <img src="https://img.shields.io/badge/Burp_Suite-FF6600?style=for-the-badge&logo=burpsuite&logoColor=white" alt="Burp Suite" />
+  <img src="https://img.shields.io/badge/Metasploit-000000?style=for-the-badge&logo=metasploit&logoColor=white" alt="Metasploit" />
+  <img src="https://img.shields.io/badge/Nmap-000000?style=for-the-badge&logo=nmap&logoColor=white" alt="Nmap" />
+</p>
 
 ---
 
-## GitHub Stats
+### ⚙️ DevOps, Cloud & Hardware
 
-<div align="center">
-
-<img height="165" src="https://github-readme-stats-totoluto.vercel.app/api?username=kibouakari&show_icons=true&hide=stars&include_all_commits=true&count_private=true&theme=tokyonight&border_radius=12&hide_border=true"/>
-
-<img height="165" src="https://github-readme-stats-totoluto.vercel.app/api/top-langs/?username=kibouakari&layout=compact&theme=tokyonight&include_all_commits=true&count_private=true&border_radius=12&hide_border=true"/>
-
-<br><br>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=kibouakari&theme=tokyonight&border_radius=12&hide_border=true" alt="GitHub Streak"/>
-
-<br><br>
-
-<img src="https://raw.githubusercontent.com/kibouakari/kibouakari/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" width="100%"/>
-
-</div>
-
----
-
-## Connect
-
-<div align="center">
-
-<a href="https://kibouakari.vercel.app">
-  <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
-</a>
-
-<a href="https://tryhackme.com/p/KibouAkari">
-  <img src="https://img.shields.io/badge/TryHackMe-red?style=for-the-badge&logo=tryhackme&logoColor=white"/>
-</a>
-
-<a href="mailto:kibouakari@proton.me">
-  <img src="https://img.shields.io/badge/Email-6D4AFF?style=for-the-badge&logo=protonmail&logoColor=white"/>
-</a>
-
-</div>
-
-<br>
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+<p>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/Raspberry_Pi-A22846?style=for-the-badge&logo=raspberry-pi&logoColor=white" alt="Raspberry Pi" />
+  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino" />
+</p>
 
 </div>
