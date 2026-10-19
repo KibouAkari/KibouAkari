@@ -1,12 +1,12 @@
 <div align="center">
 
 <!-- Terminal / Fastfetch Widget -->
-<img src="./assets/terminal.svg" alt="Terminal Profile" width="100%">
+<img src="./assets/terminal.svg?raw=true" alt="Terminal Profile" width="100%">
 
 <br/><br/>
 
 <!-- Live Activity Widget -->
-<img src="./assets/activity.svg" alt="GitHub Activity Stats" width="100%">
+<img src="./assets/activity.svg?raw=true" alt="GitHub Activity Stats" width="100%">
 
 <br/><br/>
 
