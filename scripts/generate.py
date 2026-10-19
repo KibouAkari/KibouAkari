@@ -74,7 +74,7 @@ def fetch():
     contrib = gql("query($login:String!){user(login:$login){" + " ".join(parts) + "}}", {"login": LOGIN})["user"]
     commits, days = 0, {}
     for c in contrib.values():
-        commits += c["totalCommitContributions"] + c["restrictedContributionsCount"]
+        commits += c["totalCommitContributions"]
         for w in c["contributionCalendar"]["weeks"]:
             for d in w["contributionDays"]:
                 days[d["date"]] = d["contributionCount"]
@@ -86,14 +86,15 @@ def fetch():
             size[e["node"]["name"]] = size.get(e["node"]["name"], 0) + e["size"]
     tot = sum(size.values()) or 1
     langs = [(n, 100 * s / tot) for n, s in sorted(size.items(), key=lambda kv: -kv[1])[:5]]
-    recent = []
-    for r in repos:                      # already ordered by last push
+    candidates = []
+    for r in repos:
         if r["isFork"] or r["name"].lower() == LOGIN or not r["defaultBranchRef"]:
             continue                     # skip forks and this profile repo (the bot commits here daily)
         t = r["defaultBranchRef"]["target"]
-        recent.append((t["abbreviatedOid"], t["committedDate"][:10], r["name"], t["messageHeadline"], r["isPrivate"]))
-        if len(recent) == 5:
-            break
+        candidates.append((t["committedDate"], t["abbreviatedOid"], r["name"], t["messageHeadline"], r["isPrivate"]))
+    candidates.sort(key=lambda item: item[0], reverse=True)
+    recent = [(oid, committed[:10], name, msg, private)
+              for committed, oid, name, msg, private in candidates[:5]]
     return dict(followers=user["followers"]["totalCount"], repos=user["repositories"]["totalCount"],
                 stars=sum(r["stargazerCount"] for r in repos), commits=commits, days=days,
                 langs=langs, recent=recent)
@@ -219,8 +220,9 @@ def build_activity(d):
     s.body.append(s.typed(20, y, 18, 320, prompt(20, y, "git log --oneline -5"), t, 0.6)); t += 0.7
     for oid, date, repo, msg, private in d["recent"]:
         y += 22
+        oid_t = "private" if private else oid
         repo_t, msg_t = ("private repo", "") if private else (cut(repo, 26), cut(msg, 58))
-        inner = (f'<text x="20" y="{y}" font-size="12.5" fill="{ACC}">{escape(oid)}</text>'
+        inner = (f'<text x="20" y="{y}" font-size="12.5" fill="{ACC}">{escape(oid_t)}</text>'
                  f'<text x="92" y="{y}" font-size="12.5" fill="{MUTE}">{date}</text>'
                  f'<text x="182" y="{y}" font-size="12.5" fill="{FG}">{escape(repo_t)}</text>'
                  f'<text x="400" y="{y}" font-size="12.5" fill="{DIM}">{escape(msg_t)}</text>')
