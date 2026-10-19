@@ -10,9 +10,9 @@
 
 <br/><br/>
 
-<!-- Dynamic TryHackMe Card -->
+<!-- TryHackMe Profile Badge -->
 <a href="https://tryhackme.com/p/kibouakari" target="_blank">
-  <img src="https://tryhackme-stats.lh20.dev/api/v1/badge?user=kibouakari&theme=dark" alt="TryHackMe Stats" />
+  <img src="https://tryhackme-badges.s3.amazonaws.com/kibouakari.png" alt="TryHackMe Stats" />
 </a>
 
 <br/><br/>
