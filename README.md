@@ -11,7 +11,7 @@
 <br/><br/>
 
 <!-- TryHackMe Profile Badge -->
-<a href="https://tryhackme.com/p/kibouakari" target="_blank">
+<a href="https://tryhackme.com/p/KibouAkari" target="_blank">
 <img src="https://cdn-images.tryhackme.com/public-profile/KibouAkari/badge-dark-fb0e7883301b.png" alt="KibouAkari's TryHackMe badge." width="400">
 </a>
 
