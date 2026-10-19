@@ -12,7 +12,7 @@
 
 <!-- TryHackMe Profile Badge -->
 <a href="https://tryhackme.com/p/kibouakari" target="_blank">
-  <img src="https://tryhackme-badges.s3.amazonaws.com/kibouakari.png" alt="TryHackMe Stats" />
+  <img src="https://tryhackme.com/badge/t/402c2b8492361e3ba41abeec20b25fd25a32990fcb3dd53075b3e31221697976815644c5e4c3a0bb200d9f84b11383cf?theme=dark" alt="TryHackMe Stats" />
 </a>
 
 <br/><br/>
