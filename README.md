@@ -10,6 +10,10 @@
 
 <br/><br/>
 
+<div align="center">
+  <img height="155" src="https://github-readme-stats-totoluto.vercel.app/api?username=kibouakari&show_icons=true&hide=stars&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub statistics for Kibouakari" />
+  <img height="155" src="https://github-readme-stats-totoluto.vercel.app/api/top-langs/?username=kibouakari&layout=compact&theme=tokyonight&hide_border=true" alt="Most-used languages for Kibouakari" />
+</div>
 <!-- TryHackMe Profile Badge -->
 <a href="https://tryhackme.com/p/KibouAkari" target="_blank">
 <img src="https://cdn-images.tryhackme.com/public-profile/KibouAkari/badge-dark-fb0e7883301b.png" alt="KibouAkari's TryHackMe badge." width="400">
