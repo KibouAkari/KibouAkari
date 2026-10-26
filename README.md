@@ -7,7 +7,7 @@
     width="600"
   />
 
-<br/><br/>
+<br/>
 
 <!-- Terminal / Fastfetch Widget -->
 <img src="./assets/terminal.svg?raw=true" alt="Terminal Profile" width="100%">
