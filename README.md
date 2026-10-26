@@ -1,34 +1,11 @@
 <div align="center">
 
-<svg viewBox="0 0 800 160" width="600" height="120" xmlns="http://w3.org">
-  <defs>
-    <linearGradient id="cyberGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#7aa2f7" />
-      <stop offset="50%" stop-color="#bb9af7" />
-      <stop offset="100%" stop-color="#ff007c" />
-    </linearGradient>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="4" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
-  </defs>
-  
-
-  <text x="50%" y="60%" 
-        text-anchor="middle" 
-        dominant-baseline="middle" 
-        fill="url(#cyberGradient)" 
-        font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" 
-        font-weight="900" 
-        font-size="68" 
-        letter-spacing="18" 
-        filter="url(#glow)">
-    明莉希望
-  </text>
-</svg>
+  <!-- Japanese Name Header -->
+  <img
+    src="./assets/name-header.svg"
+    alt="Kibou Akari"
+    width="600"
+  />
 
 <br/><br/>
 
