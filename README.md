@@ -1,5 +1,7 @@
 <div align="center">
 
+<h1>明莉 希望</h1>
+
 <!-- Terminal / Fastfetch Widget -->
 <img src="./assets/terminal.svg?raw=true" alt="Terminal Profile" width="100%">
 
