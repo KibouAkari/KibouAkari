@@ -5,7 +5,8 @@ Pure standard library. Runs daily in .github/workflows/update-profile.yml.
   GH_TOKEN   token used for the GraphQL API (PAT with read:user + repo for private data)
   PREVIEW=1  offline run with fake data and no animation, writes to ./preview/
 """
-import json, os, sys, datetime as dt, urllib.request, random
+import json, os, sys, datetime as dt, urllib.request, urllib.error, random, time
+import xml.etree.ElementTree as ET
 from pathlib import Path
 from xml.sax.saxutils import escape
 
@@ -24,13 +25,25 @@ FONT = "ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',
 
 # ---- data ------------------------------------------------------------------
 def gql(query, variables):
+    token = os.environ.get("GH_TOKEN")
+    if not token:
+        raise RuntimeError("GH_TOKEN missing; configure METRICS_TOKEN or use GITHUB_TOKEN fallback")
     req = urllib.request.Request(
         "https://api.github.com/graphql",
         data=json.dumps({"query": query, "variables": variables}).encode(),
-        headers={"Authorization": f"bearer {os.environ['GH_TOKEN']}", "User-Agent": "profile-card"},
+        headers={"Authorization": f"bearer {token}", "User-Agent": "profile-card"},
     )
-    with urllib.request.urlopen(req, timeout=60) as r:
-        data = json.load(r)
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=60) as r:
+                data = json.load(r)
+            break
+        except urllib.error.HTTPError as exc:
+            detail = exc.read(1200).decode("utf-8", "replace")
+            if exc.code in (429, 500, 502, 503, 504) and attempt < 2:
+                time.sleep(3 * (2 ** attempt))
+                continue
+            raise RuntimeError(f"GitHub GraphQL HTTP {exc.code}: {detail}") from exc
     if "errors" in data:
         raise RuntimeError(data["errors"])
     return data["data"]
@@ -270,12 +283,43 @@ def build_activity(d):
     s.body.append(s.fade(legend, t + 1.4))
     return s.render(f"GitHub activity: latest commits, top languages and {total} contributions in the last year")
 
+def build_combined(d):
+    """One continuous shell session, with no secondary frame or divider."""
+    ET.register_namespace("", "http://www.w3.org/2000/svg")
+    terminal = ET.fromstring(build_terminal(d))
+    activity_xml = build_activity(d).replace('id="t', 'id="activity-t').replace(
+        'url(#t', 'url(#activity-t')
+    activity = ET.fromstring(activity_xml)
+
+    W, H = 940, 1040
+    s = Svg(W, H)
+    s.frame("kibouakari@mainframe: ~", "bash")
+
+    # Root children: title, defs, five frame components, actual SVG content.
+    for part in (terminal, activity):
+        defs = list(part)[1]
+        s.defs.extend(ET.tostring(node, encoding="unicode") for node in defs)
+
+    terminal_nodes = list(terminal)[7:]
+    # Drop the old idle prompt/cursor; we add exactly one at the very bottom.
+    terminal_nodes = terminal_nodes[:-2]
+    terminal_markup = "".join(ET.tostring(node, encoding="unicode")
+                              for node in terminal_nodes)
+    activity_markup = "".join(ET.tostring(node, encoding="unicode")
+                              for node in list(activity)[7:])
+
+    # The activity commands continue where fastfetch finishes, as one shell.
+    s.body.append(terminal_markup)
+    s.body.append(f'<g transform="translate(0 470)">{activity_markup}</g>')
+    s.body.append(prompt(20, H - 16, ""))
+    s.body.append(s.cursor(36, H - 16, 0))
+    return s.render("Kibou Akari: fastfetch and live GitHub activity, one terminal")
+
 if __name__ == "__main__":
     try:
         data = fetch()
     except Exception as e:                  # keep yesterday's files if the API fails
         print("fetch failed, keeping existing assets:", e, file=sys.stderr); sys.exit(1)
     OUT.mkdir(exist_ok=True)
-    (OUT / "terminal.svg").write_text(build_terminal(data), encoding="utf-8")
-    (OUT / "activity.svg").write_text(build_activity(data), encoding="utf-8")
+    (OUT / "terminal.svg").write_text(build_combined(data), encoding="utf-8")
     print("ok", {k: v for k, v in data.items() if k not in ("days", "recent")})
