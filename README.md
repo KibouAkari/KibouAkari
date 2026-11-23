@@ -12,11 +12,6 @@
 
 <br/><br/>
 
-<br/><br/>
-
-
-<br/><br/>
-
 <div align="center">
   <img height="155" src="https://github-readme-stats-totoluto.vercel.app/api?username=kibouakari&show_icons=true&hide=stars&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub statistics for Kibouakari" />
   <img height="155" src="https://github-readme-stats-totoluto.vercel.app/api/top-langs/?username=kibouakari&layout=compact&theme=tokyonight&hide_border=true" alt="Most-used languages for Kibouakari" />
