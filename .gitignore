@@ -1,0 +1,5 @@
+
+__pycache__/
+*.pyc
+.profile-fix-backup-*/
+fix_kibou_profile.py
