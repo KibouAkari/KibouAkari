@@ -12,9 +12,6 @@
 
 <br/><br/>
 
-<!-- Live Activity Widget -->
-<img src="./assets/activity.svg?raw=true" alt="GitHub Activity Stats" width="100%">
-
 <br/><br/>
 
 
